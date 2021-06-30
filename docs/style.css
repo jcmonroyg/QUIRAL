@@ -58,7 +58,7 @@ input[type=checkbox]:checked ~ #menu{display: block;}
 .dos {width:600px}
 .wide {width:700px}
 .meetme { width:250px; }
-.meetme2 { width:350px; }
+.meetme2 { width:300px; }
 .meetme3 { width:600px; }
 .tres { width:33%; }
 
@@ -112,6 +112,25 @@ input[type=checkbox]:checked ~ #menu{display: block;}
 
 .blueQC {color:#434ca8;}
 .greenQC {color:#19c589;}
+
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 
 
 
